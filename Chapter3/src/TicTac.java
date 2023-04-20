@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	
 	System.out.format(" %10s %10s %10s", "__________", "__________", "__________");
 	System.out.format("\n" + "|%10s|%10s|%10s|", "", "", "");
-	System.out.format("\n" + "|%10s|%10s|%10s|", Square1 + "    " , Square2 + "     ", Square3 + "     ");
+	System.out.format("\n" + "|%10s|%10s|%10s|", Square1 + "     " , Square2 + "     ", Square3 + "     ");
 	System.out.format("\n" + "|%10s|%10s|%10s|", "__________", "__________", "__________");
 	System.out.format("\n" + "|%10s|%10s|%10s|", "", "", "");
 	System.out.format("\n" + "|%10s|%10s|%10s|", Square4 + "     " , Square5 + "     ", Square6 + "     ");
