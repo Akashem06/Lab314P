@@ -15,6 +15,8 @@ public class TTT {
 	private JFrame frame;
 	private JTextField txtHey;
 	
+	EndGamePopup Eg = new EndGamePopup();
+	
 	
 	int Counter = 1;
 	
@@ -414,6 +416,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square1.getText() == "X") &&
@@ -425,6 +430,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square1.getText() == "X") &&
@@ -436,6 +444,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square2.getText() == "X") &&
@@ -447,6 +458,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square3.getText() == "X") &&
@@ -458,6 +472,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square3.getText() == "X") &&
@@ -469,6 +486,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!"); 
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square4.getText() == "X") &&
@@ -480,6 +500,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square7.getText() == "X") &&
@@ -491,6 +514,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("X win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square1.getText() == "O") &&
@@ -502,6 +528,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square1.getText() == "O") &&
@@ -513,6 +542,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square1.getText() == "O") &&
@@ -524,6 +556,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square2.getText() == "O") &&
@@ -535,6 +570,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square3.getText() == "O") &&
@@ -546,6 +584,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square3.getText() == "O") &&
@@ -557,6 +598,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square4.getText() == "O") &&
@@ -568,6 +612,9 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
 			}
 		if( 
 				(Square7.getText() == "O") &&
@@ -579,6 +626,10 @@ public class TTT {
 		Counter = 10;
 		txtXTurn.setText("O win's!");
 		DisableButtons();
+		
+		EndGamePopup Eg = new EndGamePopup();
+		Eg.setVisible(true);
+	
 			}
 	}
 	public void DisableButtons() {
