@@ -5,20 +5,14 @@ import java.util.TimerTask;
 import java.util.ArrayList;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import java.awt.BorderLayout;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
 import java.awt.Font;
 import java.awt.Color;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.SwingConstants;
-import javax.swing.JRadioButton;
-import javax.swing.JTabbedPane;
-import java.awt.Component;
+
 
 public class MemoryGame {
 
@@ -72,7 +66,7 @@ public class MemoryGame {
 	private final JPanel panel = new JPanel();
 	private final JPanel panel_2 = new JPanel();
 	private final JPanel panel_3 = new JPanel();
-	private final JPanel panel_3_1 = new JPanel();
+	private final JPanel panel_4 = new JPanel();
 
 	/**
 	 * Launch the application.
@@ -169,10 +163,10 @@ public class MemoryGame {
 		panel_3.setBounds(148, 146, 15, 304);
 		
 		frame.getContentPane().add(panel_3);
-		panel_3_1.setBackground(new Color(205, 92, 92));
-		panel_3_1.setBounds(525, 146, 15, 304);
+		panel_4.setBackground(new Color(205, 92, 92));
+		panel_4.setBounds(525, 146, 15, 304);
 		
-		frame.getContentPane().add(panel_3_1);
+		frame.getContentPane().add(panel_4);
 		
 		Button1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
