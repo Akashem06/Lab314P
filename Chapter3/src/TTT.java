@@ -30,8 +30,6 @@ public class TTT {
 	
 	boolean PlayAgain = true;
 	
-
-	
 	
 	private JTextField txtXTurn;
 

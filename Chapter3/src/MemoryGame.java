@@ -206,7 +206,7 @@ public class MemoryGame {
 			}
 		});
 		
-}
+} 
 	public void Check() {
 		if (ClickSequence == ColorSequence) {
 		PlayAgain = true; }
@@ -234,7 +234,6 @@ public class MemoryGame {
 		if (Color == 4) {
 			
 		}
-		
 		
 	}
 }
