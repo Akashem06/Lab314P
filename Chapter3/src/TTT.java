@@ -200,7 +200,7 @@ public class TTT {
 					txtXTurn.setText("Tie");
 				}
 				Check();
-				}
+			}
 				
 			}});
 

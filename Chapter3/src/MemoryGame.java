@@ -172,7 +172,7 @@ public class MemoryGame {
 			public void actionPerformed(ActionEvent e) {
 				Button1.setEnabled(false);
 				ClickSequence.add(1);
-				Button1.setBackground(new Color(30, 144, 255));
+				Button1.setBackground(new Color(30, 150, 255));
 				ButtonTimer.schedule(Lightup1, 750);
 
 				
@@ -183,7 +183,7 @@ public class MemoryGame {
 			public void actionPerformed(ActionEvent e) {
 				Button2.setEnabled(false);
 				ClickSequence.add(2);
-				Button2.setBackground(new Color(255, 215, 0));
+				Button2.setBackground(new Color(255, 210, 0));
 				ButtonTimer.schedule(Lightup2, 750);
 			}
 		});
@@ -192,7 +192,7 @@ public class MemoryGame {
 			public void actionPerformed(ActionEvent e) {
 				Button3.setEnabled(false);
 				ClickSequence.add(3);
-				Button3.setBackground(new Color(60, 179, 113));
+				Button3.setBackground(new Color(60, 180, 110));
 				ButtonTimer.schedule(Lightup3, 750);
 			}
 		});
