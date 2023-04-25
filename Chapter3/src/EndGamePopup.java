@@ -17,9 +17,12 @@ public class EndGamePopup extends JFrame {
 	JButton MainMenuExit = new JButton("Main Menu");
 	JButton PlayAgain = new JButton("Play Again");
 	
+	TTT TicTac = new TTT();
 	
-	
+
+	private JFrame frame;
 	private JPanel contentPane;
+
 
 	/**
 	 * Launch the application.
@@ -36,6 +39,7 @@ public class EndGamePopup extends JFrame {
 			}
 		});
 	}
+
 
 	/**
 	 * Create the frame.
@@ -106,15 +110,10 @@ public class EndGamePopup extends JFrame {
 		panel_2_1_2_2.setBackground(Color.BLACK);
 		panel_2_1_2_2.setBounds(95, 208, 194, 10);
 		contentPane.add(panel_2_1_2_2);
-		
-		PlayAgain.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				//PopUp();
-			}
-		});
-		
+
 	}
+
+
 }
 
 	
