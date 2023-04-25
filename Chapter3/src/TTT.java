@@ -14,9 +14,8 @@ import javax.swing.JDesktopPane;
 
 public class TTT extends JFrame {
 	
-	private JFrame frame;
+	JFrame frame;
 	private JTextField txtHey;
-	
 	
 	
 	int Counter = 1;
@@ -30,10 +29,6 @@ public class TTT extends JFrame {
 	JButton Square4 = new JButton("");
 	JButton Square5 = new JButton("");
 	JButton Square6 = new JButton("");
-	
-	JButton Playagain = new JButton("Restart");
-	
-	boolean PlayAgain = true;
 	
 	
 	private JTextField txtXTurn;
@@ -59,13 +54,6 @@ public class TTT extends JFrame {
 	 * Create the application.
 	 */
 	public TTT() {
-		initialize();
-	}
-
-	/**
-	 * Initialize the contents of the frame.
-	 */
-	private void initialize() {
 		
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(255, 255, 255));
@@ -145,19 +133,10 @@ public class TTT extends JFrame {
 		panel_1.setBounds(10, 11, 106, 439);
 		frame.getContentPane().add(panel_1);
 		
-		JButton MainMenu = new JButton("Main Menu");
-		MainMenu.setFont(new Font("Impact", Font.PLAIN, 15));
-		MainMenu.setBackground(new Color(154, 205, 50));
-		panel_1.add(MainMenu);
-		
 		JPanel panel_1_1 = new JPanel();
 		panel_1_1.setBackground(new Color(47, 79, 79));
 		panel_1_1.setBounds(568, 11, 106, 439);
 		frame.getContentPane().add(panel_1_1);
-		
-		Playagain.setFont(new Font("Impact", Font.PLAIN, 15));
-		Playagain.setBackground(new Color(154, 205, 50));
-		panel_1_1.add(Playagain);
 		
 		JPanel panel_2 = new JPanel();
 		panel_2.setBackground(new Color(46, 139, 87));
@@ -415,12 +394,6 @@ public class TTT extends JFrame {
 		} 
 			
 		}});
-		
-		Playagain.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			
-			}
-		});
 		
 	}
 	
